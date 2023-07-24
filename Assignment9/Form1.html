@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>KM Custom HTML Form Example Using AppleScript</h1>
-<p>(by JMichaelTX)</p>
+    <div>
+    <h2>KM Custom HTML Form Example Using AppleScript</h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(by JMichaelTX)</p>
 <Form>
-    <table border="1">
+    <table cellpadding="10" cellspacing="0">
         <tr><th>Name:</th>
             <td><input type="Name" placeholder="John AppleScript"></td>
         </tr>
@@ -19,11 +21,11 @@
         <tr><th>Password:</th>
             <td><input type="password"></td>
         </tr>
-        <tr><th>Approval Required: <br /> <p>Click on the button or text to <br />check/uncheck.</p></th>
+        <tr><th>Approval Required: <br /> <p class="small">Click on the button or text to <br />check/uncheck.</p></th>
             <td><input type="checkbox" name="Required" value="Do you approve">Do you approve</td>
         </tr>
         <tr><th>Pick Your Favorite:
-            <p>Choice A <br />
+            <p class="small">Choice A <br />
             Click on the button or text to select.</p> </th>
             <td><label>Choice A<input type="radio" name="Pick" value="Choice A">
                 <label>Choice B<input type="radio" name="Pick" value="Choice B">
@@ -154,5 +156,6 @@
 </Form>
 
 <input type="submit" value="Save"> <input type="submit" value="Cancel"> <input type="submit" value="Resize">
+</div>
 </body>
 </html>
